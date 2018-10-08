@@ -5,7 +5,7 @@ function moveDodgerRight(e) {
   {
   var rightNumbers = dodger.style.right.replace('px', '')
   var right = parseInt(rightNumbers, 10)
-  console.log(right)
+  console.log(rightNumbers)
   if (right > 0) {
     console.log("inside right")
     dodger.style.right = "${right - 1}px"
