@@ -7,5 +7,5 @@ function moveDodgerRight() {
     dodger.style.left = `${left + 1}px`
   }
 }
-document.addEventListener("keydown", (e)=>moveDodgerRight(e)
+document.addEventListener("keydown", moveDodgerRight(e)
 )
