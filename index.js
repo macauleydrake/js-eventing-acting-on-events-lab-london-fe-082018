@@ -9,7 +9,7 @@ function moveDodgerRight() {
   }
 }
 
-document.addEventListener("keydown", (e)=>
+document.addEventListener("keydown", (e)=> {
 if (e.which === 39) {
-moveDodgerRight()}
+moveDodgerRight()}}
 )
