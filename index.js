@@ -1,6 +1,6 @@
 var dodger = document.getElementById('dodger')
 function moveDodgerRight(e) {
-  if (e.which ===)
+  if (e.which === 39)
   var rightNumbers = dodger.style.right.replace('px', '')
   var right = parseInt(rightNumbers, 10)
  
