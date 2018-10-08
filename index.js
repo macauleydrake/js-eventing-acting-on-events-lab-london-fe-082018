@@ -8,7 +8,7 @@ function moveDodgerRight(e) {
   console.log(leftNumbers)
   if (right > 0) {
     console.log("inside right")
-    dodger.style.right = "${right - 1}px"
+    dodger.style.left = "${right - 1}px"
   }}
 }
 document.addEventListener("keydown", (e)=>moveDodgerRight(e)
